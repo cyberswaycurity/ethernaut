@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_telephoneAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"04_Telephone/Attack.sol": "Attack"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"04_Telephone/Attack.sol": {
+			"keccak256": "0x9542e74a1a3b3faed2efbdcc5076b22936418d544a02925c7d97056ab6334faa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b709a2eb66b07f4d2be0863d67157cae52d84cfd498ffe7ce43126db6f8fa96",
+				"dweb:/ipfs/QmSkD56QoJqNXp4Nt4VFScZooQdpmKpDFQu5K3WKWDR2Ke"
+			]
+		}
+	},
+	"version": 1
+}
