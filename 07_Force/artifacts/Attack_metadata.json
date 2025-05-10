@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_forceAddress",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"07_Force/Attack.sol": "Attack"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"07_Force/Attack.sol": {
+			"keccak256": "0xe0a6af61da1f0ccb364f002f187ebb2421abc28009e48e32531a18a75425a443",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b234b8733a1be49f2017fbd20ba530c8b459d52944b239d2bf64be67275d1b6",
+				"dweb:/ipfs/QmYSc1pqho1AgW58NCkdN8vA7SudinW6nDTt4kevvkfqtK"
+			]
+		}
+	},
+	"version": 1
+}

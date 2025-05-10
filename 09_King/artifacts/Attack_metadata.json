@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_kingAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"09_King/Attack.sol": "Attack"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"09_King/Attack.sol": {
+			"keccak256": "0x445c181fd9f36ad8a311d76573fbe16b404f964b0b9473f444bd1c7b2af8bcb5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://99374cf8dc3267c9cd78bfdc68d9fae82e2eeff6ececa2943377e81201f43702",
+				"dweb:/ipfs/QmRoX2GfLFLUAXMNdM16nPrx3U7tfn1sESyAHcUqopJoh6"
+			]
+		}
+	},
+	"version": 1
+}
